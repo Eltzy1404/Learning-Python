@@ -23,3 +23,17 @@
 #     print("Usia :", usia)
 #     print("Nilai :", nilai)
 #     print("Status : Not Eligible"
+
+# Learning Loop
+
+# for i in range(1, 21):
+#     if i % 2 == 0:
+#         print(i, "Genap")
+#     else:
+#         print(i, "Ganjil")
+
+# for i in range(1, 11):
+#     print(i, "x", 5, "=", i * 5)
+
+# for i in range(2, 8, 2):
+#     print(i)
