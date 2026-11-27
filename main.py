@@ -22,7 +22,7 @@
 # else:
 #     print("Usia :", usia)
 #     print("Nilai :", nilai)
-#     print("Status : Not Eligible"
+#     print("Status : Not Eligible")
 
 # Learning Loop
 
@@ -40,17 +40,35 @@
 
 # List Structure
 
-siswa = ["Elang", "Budi", "Yudhistira"]
+# siswa = ["Elang", "Budi", "Yudhistira"]
 
-print("Daftar Siswa :")
+# print("Daftar Siswa :")
 
-siswa.append("Rizky")
+# siswa.append("Rizky")
 
-for nama in siswa:
-    print(nama)
+# for nama in siswa:
+#     print(nama)
     
-print("Jumlah Siswa :", len(siswa))
-    
+# print("Jumlah Siswa :", len(siswa))
+
+# Learning Function
+
+# def perkenalan(nama, umur):
+#     print("Nama:", nama)
+#     print("Umur:", umur)
+
+# perkenalan("Elang", 15)
+
+def hitung_nilai(nama, nilai):
+    print("Nama:", nama)
+    print("Nilai:", nilai)
+
+    if nilai >= 75:
+        return "Lulus"
+    else:
+        return "Tidak Lulus"
 
 
- 
+status = hitung_nilai("Elang", 90)
+
+print("status:", status)
