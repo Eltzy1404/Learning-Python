@@ -37,3 +37,20 @@
 
 # for i in range(2, 8, 2):
 #     print(i)
+
+# List Structure
+
+siswa = ["Elang", "Budi", "Yudhistira"]
+
+print("Daftar Siswa :")
+
+siswa.append("Rizky")
+
+for nama in siswa:
+    print(nama)
+    
+print("Jumlah Siswa :", len(siswa))
+    
+
+
+ 
